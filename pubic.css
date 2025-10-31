@@ -34,7 +34,7 @@
         }
         .child{
             padding: 20px;
-            background-color: rgb(240, 241, 241);
+            background-color: #ffffff;
             border-radius: 5px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
             
@@ -42,7 +42,7 @@
         }
         .child-left{
             width: 30%;
-              background-color: rgb(240, 241, 241);
+              background-color: #ffffff;
              border-radius: 5px;
              padding: 20px;
              box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -51,7 +51,7 @@
         .child-right{
             width: 70%;
             border-radius: 5px;
-             background-color: rgb(240, 241, 241);
+             background-color: #ffffff;
              padding: 20px;
              box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
         }
