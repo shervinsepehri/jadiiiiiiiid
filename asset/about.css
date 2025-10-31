@@ -33,6 +33,8 @@
         flex-direction: column;
         text-align: center;
         padding: 20px;
+        font-size: xx-large;
+    
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         
         justify-content: center;
@@ -42,6 +44,7 @@
     p{
         font-weight: 250;
         font-style: initial;
+        font-size: large;
         
         
     }
