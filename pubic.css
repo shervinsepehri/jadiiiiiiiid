@@ -20,6 +20,9 @@
             box-sizing: border-box;
             
         }
+        .container button{
+           margin: 12px;
+        }
         main{
             width: 80%;
             /* background-color: aqua; */
@@ -73,26 +76,42 @@
                     
                 }
                 .right{
-                    width: 70%;
-                    justify-content: end;
-                    align-items: end;
+                    
+                    
+                    
+                    
+                   
+                    
                     /* background-color: blueviolet;  */
                     
                     
                     
                     
                 }
+                form{
+                    width: 100px;
+                    display: flex;
+                    justify-content: row;
+                    flex-direction: row;
+
+                    align-items: center;
+                    /* background-color: black; */
+                }
                 .center{
-                    width: 25%;
-                    margin: 0px 120px;             
+                    width: 790px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    
                     /* background-color: bisque; */
                     justify-content: center;
                     flex-direction: row;
+                    
                     align-items: center;
 
                 }
                 .left{
-                    width: 25%;
+                    width: 30%;
                     justify-content: start;
                      /* background-color: aquamarine;  */
                 }
@@ -107,14 +126,14 @@
                    padding: 5px;
                    
                 }
-                button{
+                .right button{
                     padding: 10px;
                     border-radius: 10px;
                     border-color: bisque;
                 }
                 .center{
                     text-align: center;
-                    margin: 20px;
+                    
                     font-family:Georgia, 'Times New Roman', Times, serif;
                     font-weight: 800;
                     font-size: x-large;
