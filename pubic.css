@@ -2,6 +2,7 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
 
@@ -75,20 +76,9 @@
                     background-color: rgb(218, 218, 218);
                     
                 }
-                .right{
-                    
-                    
-                    
-                    
-                   
-                    
-                    /* background-color: blueviolet;  */
-                    
-                    
-                    
-                    
-                }
+           
                 form{
+                    
                     width: 100px;
                     display: flex;
                     justify-content: row;
@@ -139,6 +129,34 @@
                     font-size: x-large;
 
                 }
+                footer{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    gap: 22px;
+                    padding: 11px;
+                    background-color: rgb(17, 9, 39);
+                    color: rgb(177, 174, 183);
+                }
+                footer .right-1{
+                    width: 100%;
+                    padding: 22px;
+                    justify-content: space-between;
+                    
+                    /* background-color: aqua; */
+                    
+                }
+                footer .center-1{
+                    width: 100%;
+                    /* background-color: aquamarine; */
+
+                }
+                footer .left-1{
+                    width: 100%;
+                    /* background-color: blue; */
+                }
+                
                 
                 
 
@@ -176,17 +194,44 @@
                     
                 }
 
-                @media (min-width: 768px) {
+                @media (max-width: 768px) {
                     .container{
                         flex-direction: column;
+                        box-sizing: border-box;
+                        max-width: 768px;
 
                     }
                     .row-row2 .row-row3 .row-row1{
                         flex-direction: column;
+                        padding: 40px;
+                        max-width: 768px;
+                        box-sizing: border-box
+
                         
+                    }
+                    .center{
+                        width: 100%;
+
+                    }
+                    .right{
+                        width: 10%;
+                        justify-content: center;
+
+                    }
+                    .left{
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        /* background-color: aquamarine; */
+                    }
+                    menu{
+                        max-width: 768px;
+                        flex-direction: column;
+                        box-sizing: border-box;
                     }
 
                     main {
+                        max-width: 768px;
         
                         width: 95%;
                         padding: 10px;
