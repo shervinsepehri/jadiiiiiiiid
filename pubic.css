@@ -203,10 +203,25 @@
                     }
                     .row-row2 .row-row3 .row-row1{
                         flex-direction: column;
-                        padding: 40px;
+                        
                         max-width: 768px;
                         box-sizing: border-box
 
+                        
+                    }
+                    .row-row1{
+                        flex-direction: column;
+
+                    }
+                    .child-left{
+                        width: 100%;
+                        
+                        
+                        /* background-color: aqua; */
+                    }
+                    .child-right{
+                       width: 100%;
+                        
                         
                     }
                     .center{
